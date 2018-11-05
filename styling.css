@@ -1,1 +1,16 @@
-body {background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: cover;}
+body {
+  background-image: url("tennisbalcourt.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 255, 0.2)
+}
